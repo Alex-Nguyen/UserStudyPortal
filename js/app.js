@@ -1,10 +1,12 @@
 const database = firebase.database();
+
 class UserStudy {
-    constructor(params){
+    constructor(params) {
         this.maxTimeToFinishPage = params.maxTimeToFinishPage;
         this.maxTimeToFinish = params.maxTimeToFinish;
     }
-    init(){
+
+    init() {
         let _this = this;
         let uuid = this.uuidv4();
         let json = this.json();
@@ -16,7 +18,7 @@ class UserStudy {
                 let qname = Object.keys(val)[0];
                 let qanwer = val[qname];
 
-                database.ref(`${uuid}/${qname}`).set({answer:qanwer, timespent:_this.survey.currentPage.timeSpent });
+                database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
             });
         _this.survey.onCurrentPageChanging.add(function (sender, options) {
             // console.log(`Page changing: `+ survey.currentPage.timeSpent)
@@ -24,13 +26,14 @@ class UserStudy {
             let qname = Object.keys(val)[0];
             let qanwer = val[qname];
 
-            database.ref(`${uuid}/${qname}`).set({answer:qanwer, timespent:_this.survey.currentPage.timeSpent });
+            database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
         });
         $("#surveyElement").Survey({
             model: _this.survey
         });
     }
-    json(){
+
+    json() {
         return {
             title: "Human Computer Interaction - User study",
             showProgressBar: "top",
@@ -44,7 +47,11 @@ class UserStudy {
                     questions: [
                         {
                             type: "html",
-                            html: "You are about to start user study by evaluating visualization design. <br/>You have 2 minutes for every page and 36 minutes for the whole survey of 18 questions.<br/>Please click on <b>'Start Survey'</b> button when you are ready."
+                            html: "You are about to start user study by evaluating visualization design. " +
+                                "<br/>You have 1 minutes for every page and 20 minutes for the whole survey of 18 questions." +
+                                "<br/>Please click on <b>'Start Survey'</b> button when you are ready."+
+                                "<p> Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous</p>" +
+                                "<p> Before you begin, please answer the following questions: </p>"
                         },
                         {
                             type: "radiogroup",
@@ -393,7 +400,7 @@ class UserStudy {
                         {
                             "type": "comment",
                             "name": "comment",
-                            "title":"What is your comment about each visualization type?"
+                            "title": "What is your comment about each visualization type?"
                         }
                     ],
                 }
@@ -401,15 +408,17 @@ class UserStudy {
             completedHtml: "<h4>You have finished user study section, thank you very much for your time.</h4>"
         };
     }
-    uuidv4(){
-        return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+
+    uuidv4() {
+        return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c =>
             (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
         );
     }
 }
+
 const params = {
-    maxTimeToFinishPage: 120, //in seconds
-    maxTimeToFinish: 2160 //in seconds
+    maxTimeToFinishPage: 60, //in seconds
+    maxTimeToFinish: 1300 //in seconds
 }
 
 let userstudy = new UserStudy(params);
