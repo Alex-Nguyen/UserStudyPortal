@@ -45,6 +45,22 @@ class UserStudy {
                         {
                             type: "html",
                             html: "You are about to start user study by evaluating visualization design. <br/>You have 2 minutes for every page and 36 minutes for the whole survey of 18 questions.<br/>Please click on <b>'Start Survey'</b> button when you are ready."
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "info1",
+                            title: "Are you Male or Female ?",
+                            choices: [
+                                "Male", "Female", "Other", "Prefer not to say"
+                            ]
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "info2",
+                            title: "Are you Undergraduate/Master/Ph.D. student ?",
+                            choices: [
+                                "Undergraduate student", "Master student", "Ph.D. student", "Others"
+                            ]
                         }
                     ]
                 },
