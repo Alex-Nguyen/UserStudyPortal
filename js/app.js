@@ -125,7 +125,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -143,7 +143,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -161,7 +161,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -179,7 +179,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -197,7 +197,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -215,7 +215,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -233,7 +233,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -251,7 +251,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -269,7 +269,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -287,7 +287,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -305,7 +305,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -323,7 +323,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -341,7 +341,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
@@ -359,7 +359,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.png' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
