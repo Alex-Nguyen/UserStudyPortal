@@ -66,14 +66,25 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' height='400px /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_10_a_t.PNG' width='100%' height='400px /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q1",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
+
+
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -84,14 +95,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q2.PNG' width='100%' height='400px /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_10_b_b.PNG' width='100%' height='400px /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q2",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -102,14 +122,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' height='400px /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_10_b_t.PNG' width='100%' height='400px /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q3",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -120,14 +149,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_30_a_b.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q4",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -138,14 +176,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_30_a_t.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q5",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -156,14 +203,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_30_b_b.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q6",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -174,14 +230,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_30_b_t.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q7",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -192,14 +257,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_50_a_b.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q8",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -210,14 +284,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_50_a_t.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q9",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -228,14 +311,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_50_b_b.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q10",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -246,14 +338,23 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/10_50_b_t.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q11",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -264,14 +365,43 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/30_10_a_b.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q12",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -282,14 +412,43 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/30_10_a_t.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q13",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -300,14 +459,43 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/30_10_b_b.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q14",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -318,14 +506,43 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/30_10_b_t.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q15",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -336,15 +553,43 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/30_30_a_b.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q16",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
-                            ],
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29"                            ],
                             correctAnswer: "Group 2"
                         }
                     ]
@@ -354,14 +599,43 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/30_30_a_t.PNG' width='100%' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q17",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29"
                             ],
                             correctAnswer: "Group 2"
                         }
@@ -372,19 +646,681 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: "<table><body><row><td><img src='images/q1.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                            html: "<table><body><row><td><img src='images/50_10_a_b.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
                         },
                         {
                             type: "radiogroup",
                             name: "q18",
                             title: "From the design above, which group shows most sudden change over time?",
                             choices: [
-                                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
                             ],
                             correctAnswer: "Group 2"
                         }
                     ]
                 },
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_10_a_t.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "q19",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_10_b_b.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "q19",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_10_b_t.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "20",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_30_b_b.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "21",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_30_b_t.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "22",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_50_a_b.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "23",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+
+                //24
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_50_a_t.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "24",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+
+                //25
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/50_50_b_b.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "25",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+
+                //26
+                {
+                    questions: [
+                        {
+                            type: "html",
+                            name: "info",
+                            html: "<table><body><row><td><img src='images/10_10_a_b.PNG' width='100%' height='400px' /></td><td style='padding:20px'></td></row></body></table>"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "26",
+                            title: "From the design above, which group shows most sudden change over time?",
+                            choices: [
+                                "Instance 0",
+                                "Instance 1",
+                                "Instance 2",
+                                "Instance 3",
+                                "Instance 4",
+                                "Instance 5",
+                                "Instance 6",
+                                "Instance 7",
+                                "Instance 8",
+                                "Instance 9",
+                                "Instance 10",
+                                "Instance 11",
+                                "Instance 12",
+                                "Instance 13",
+                                "Instance 14",
+                                "Instance 15",
+                                "Instance 16",
+                                "Instance 17",
+                                "Instance 18",
+                                "Instance 19",
+                                "Instance 20",
+                                "Instance 21",
+                                "Instance 22",
+                                "Instance 23",
+                                "Instance 24",
+                                "Instance 25",
+                                "Instance 26",
+                                "Instance 27",
+                                "Instance 28",
+                                "Instance 29",
+                                "Instance 30",
+                                "Instance 31",
+                                "Instance 32",
+                                "Instance 33",
+                                "Instance 34",
+                                "Instance 35",
+                                "Instance 36",
+                                "Instance 37",
+                                "Instance 38",
+                                "Instance 39",
+                                "Instance 40",
+                                "Instance 41",
+                                "Instance 42",
+                                "Instance 43",
+                                "Instance 44",
+                                "Instance 45",
+                                "Instance 46",
+                                "Instance 47",
+                                "Instance 48",
+                                "Instance 49"
+                            ],
+                            correctAnswer: "Group 2"
+                        }
+                    ]
+                },
+
                 {
                     questions: [
                         {
