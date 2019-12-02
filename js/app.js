@@ -51,8 +51,13 @@ class UserStudy {
                             html: "You are about to start user study by evaluating visualization design. " +
                                 "<br/>You have 1 minutes for every page and 20 minutes for the whole survey of 18 questions." +
                                 "<br/>Please click on <b>'Start Survey'</b> button when you are ready."+
-                                "<p> Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous</p>" 
-                        }
+                                "<p> Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous</p>"
+                        },
+                        {
+                            type: "html",
+                            name: "info",
+                            html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/yerZkstLacE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                        },
 
                     ]
                 },
