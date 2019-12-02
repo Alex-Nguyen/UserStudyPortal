@@ -36,7 +36,7 @@ class UserStudy {
 
     json() {
         return {
-            title: "Human Computer Interaction - User study",
+            title: "Timeline visualization - User study",
             showProgressBar: "top",
             showTimerPanel: "top",
             maxTimeToFinishPage: this.maxTimeToFinishPage,
@@ -56,7 +56,7 @@ class UserStudy {
                         {
                             type: "html",
                             name: "info",
-                            html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/yerZkstLacE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                            html: '<iframe width="940px" height="680px"  src="https://www.youtube.com/embed/G6544NrpbrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>'
                         },
 
                     ]
@@ -390,7 +390,7 @@ class UserStudy {
                         {
                             "type": "comment",
                             "name": "comment",
-                            "title": "What is your comment about each visualization type?"
+                            "title": "What is your comment about each visualization design, which representation you would like to see most and why?"
                         },
                         {
                             type: "radiogroup",
