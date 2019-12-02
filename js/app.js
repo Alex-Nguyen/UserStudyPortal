@@ -28,6 +28,7 @@ class UserStudy {
 
             database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
         });
+
         $("#surveyElement").Survey({
             model: _this.survey
         });
@@ -52,23 +53,8 @@ class UserStudy {
                                 "<br/>Please click on <b>'Start Survey'</b> button when you are ready."+
                                 "<p> Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous</p>" +
                                 "<p> Before you begin, please answer the following questions: </p>"
-                        },
-                        {
-                            type: "radiogroup",
-                            name: "info1",
-                            title: "Are you Male or Female ?",
-                            choices: [
-                                "Male", "Female", "Other", "Prefer not to say"
-                            ]
-                        },
-                        {
-                            type: "radiogroup",
-                            name: "info2",
-                            title: "Are you Undergraduate/Master/Ph.D. student ?",
-                            choices: [
-                                "Undergraduate student", "Master student", "Ph.D. student", "Others"
-                            ]
                         }
+
                     ]
                 },
                 {
@@ -401,6 +387,22 @@ class UserStudy {
                             "type": "comment",
                             "name": "comment",
                             "title": "What is your comment about each visualization type?"
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "info1",
+                            title: "Are you Male or Female ?",
+                            choices: [
+                                "Male", "Female", "Other", "Prefer not to say"
+                            ]
+                        },
+                        {
+                            type: "radiogroup",
+                            name: "info2",
+                            title: "Are you Undergraduate/Master/Ph.D. student ?",
+                            choices: [
+                                "Undergraduate student", "Master student", "Ph.D. student", "Others"
+                            ]
                         }
                     ],
                 }
