@@ -51,8 +51,7 @@ class UserStudy {
                             html: "You are about to start user study by evaluating visualization design. " +
                                 "<br/>You have 1 minutes for every page and 20 minutes for the whole survey of 18 questions." +
                                 "<br/>Please click on <b>'Start Survey'</b> button when you are ready."+
-                                "<p> Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous</p>" +
-                                "<p> Before you begin, please answer the following questions: </p>"
+                                "<p> Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous</p>" 
                         }
 
                     ]
