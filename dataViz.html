@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization result</title>
+</head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://surveyjs.azureedge.net/1.1.22/survey.css" type="text/css" rel="stylesheet"/>
+<script src="https://surveyjs.azureedge.net/1.1.22/survey.jquery.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"/>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+<script type="text/javascript" src="//unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+
+<script src="https://rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css"
+        defer></script>
+
+<body>
+<div id="container"></div>
+
+</body>
+<script>
+    function create1Darray() {
+        let arr = [];
+        for (let i = 0; i < 36; i++) {
+            arr.push(' ')
+        }
+        return arr;
+    }
+
+    d3.json('data/result.json').then(result => {
+        const _ANSWER = {
+            '10_10_a': [
+                {q1: {answer: '', time: null}},
+                {q2: {answer: '', time: null}}
+            ],
+            '10_10_b': [
+                {q3: {answer: '', time: null}},
+                {q4: {answer: '', time: null}}
+            ],
+            '10_30_a': [
+                {q5: {answer: '', time: null}},
+                {q6: {answer: '', time: null}}
+            ],
+            '10_30_b': [
+                {q7: {answer: '', time: null}},
+                {q8: {answer: '', time: null}}
+            ],
+            '10_50_a': [
+                {q9: {answer: '', time: null}},
+                {q10: {answer: '', time: null}}
+            ],
+            '10_50_b': [
+                {q11: {answer: '', time: null}},
+                {q12: {answer: '', time: null}}
+            ],
+            '30_10_a': [
+                {q13: {answer: '', time: null}},
+                {q14: {answer: '', time: null}}
+            ],
+            '30_10_b': [
+                {q15: {answer: '', time: null}},
+                {q16: {answer: '', time: null}}
+            ],
+            '30_30_a': [
+                {q17: {answer: '', time: null}},
+                {q18: {answer: '', time: null}}
+            ],
+            '30_30_b': [
+                {q19: {answer: '', time: null}},
+                {q20: {answer: '', time: null}}
+            ],
+            '30_50_a': [
+                {q21: {answer: '', time: null}},
+                {q22: {answer: '', time: null}}
+            ],
+            '30_50_b': [
+                {q23: {answer: '', time: null}},
+                {q24: {answer: '', time: null}}
+            ],
+            '50_10_a': [
+                {q25: {answer: '', time: null}},
+                {q26: {answer: '', time: null}}
+            ],
+            '50_10_b': [
+                {q27: {answer: '', time: null}},
+                {q28: {answer: '', time: null}}
+            ],
+            '50_30_a': [
+                {q29: {answer: '', time: null}},
+                {q30: {answer: '', time: null}}
+            ],
+            '50_30_b': [
+                {q31: {answer: '', time: null}},
+                {q32: {answer: '', time: null}}
+            ],
+            '50_50_a': [
+                {q33: {answer: '', time: null}},
+                {q34: {answer: '', time: null}}
+            ],
+            '50_50_b': [
+                {q35: {answer: '', time: null}},
+                {q36: {answer: '', time: null}}
+            ],
+        };
+        let _result = [];
+
+        Object.keys(result).forEach((user) => {
+            let row = create1Darray();
+            console.log(row)
+            console.log(user)
+            Object.keys(result[user]).forEach(question =>{
+                let index = question.slice(1);
+                //row[index] =
+                let val = result[user][question].answer + ', '+ result[user][question].timespent
+                row[index] =val
+
+            })
+            _result.push(row)
+        })
+        var filename = "ResponseResult.xlsx";
+
+        /* Sheet Name */
+        var ws_name = "FreakySheet";
+
+        if (typeof console !== 'undefined') console.log(new Date());
+        var wb = XLSX.utils.book_new(),
+            ws = XLSX.utils.aoa_to_sheet(_result);
+
+        /* Add worksheet to workbook */
+        XLSX.utils.book_append_sheet(wb, ws, ws_name);
+
+        // /* Write workbook and Download */
+        // if (typeof console !== 'undefined') console.log(new Date());
+        XLSX.writeFile(wb, filename);
+    })
+</script>
+</html>

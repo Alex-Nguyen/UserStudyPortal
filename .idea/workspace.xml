@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -23,10 +23,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\UserStudyPortal\data" />
       <recent name="D:\Coding\UserStudyPortal\images" />
       <recent name="D:\Coding\SurveyFramework" />
     </key>
@@ -54,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575238588629</updated>
       <workItem from="1575238589779" duration="11789000" />
-      <workItem from="1575256024764" duration="7407000" />
+      <workItem from="1575256024764" duration="16781000" />
+      <workItem from="1575398645307" duration="3299000" />
     </task>
     <servers />
   </component>
@@ -66,7 +68,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -77,8 +81,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/app.js</url>
-          <line>63</line>
-          <properties lambdaOrdinal="-1" />
+          <line>528</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

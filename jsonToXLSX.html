@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Convert JSON to XLS and Download</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script type="text/javascript" src="//unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+
+    <script src="https://rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css" defer></script>
+    <style type="text/css">
+        .operative {
+            font-weight: bold;
+            border: 1px solid yellow;
+        }
+
+        #quine {
+            border: 4px solid #88c;
+        }
+
+        .spacer {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body class="container">
+<script>
+    function create1Darray(){
+        let arr =[];
+        for(let i=0; i<36; i++){
+            arr.push(' ')
+        }
+        return arr;
+    }
+    $(function() {
+
+
+        var createXLSLFormatObj = [];
+
+        /* XLS Head Columns */
+        var xlsHeader = ["EmployeeID", "Full Name"];
+        var _xlsRows = [{"q0":{"answer":"instance_6","timespent":17},"q1":{"answer":"instance_6","timespent":15},"q10":{"answer":"instance_7","timespent":11},"q11":{"answer":"instance_1","timespent":19},"q12":{"answer":"instance_13","timespent":20},"q13":{"answer":"instance_17","timespent":12},"q14":{"answer":"instance_25","timespent":25},"q15":{"answer":"instance_3","timespent":12},"q16":{"answer":"instance_5","timespent":8},"q17":{"answer":"instance_24","timespent":17},"q18":{"answer":"instance_19","timespent":29},"q19":{"answer":"instance_8","timespent":21},"q2":{"answer":"instance_3","timespent":13},"q20":{"answer":"instance_10","timespent":8},"q21":{"answer":"instance_26","timespent":17},"q22":{"answer":"instance_4","timespent":29},"q23":{"answer":"instance_14","timespent":47},"q24":{"answer":"instance_35","timespent":31},"q25":{"answer":"instance_18","timespent":60},"q26":{"answer":"instance_1","timespent":28},"q27":{"answer":"instance_14","timespent":46},"q28":{"answer":"instance_2","timespent":25},"q29":{"answer":"instance_13","timespent":18},"q3":{"answer":"instance_5","timespent":33},"q30":{"answer":"instance_2","timespent":22},"q31":{"answer":"instance_46","timespent":16},"q32":{"answer":"instance_5","timespent":8},"q33":{"answer":"instance_5","timespent":11},"q34":{"answer":"instance_19","timespent":16},"q35":{"answer":"instance_15","timespent":9},"q4":{"answer":"instance_2","timespent":11},"q5":{"answer":"instance_2","timespent":18},"q6":{"answer":"instance_7","timespent":10},"q7":{"answer":"instance_8","timespent":17},"q8":{"answer":"instance_9","timespent":14},"q9":{"answer":"instance_9","timespent":19}},{"q0":{"answer":"instance_5","timespent":60},"q1":{"answer":"instance_5","timespent":0},"q10":{"answer":"instance_5","timespent":0},"q11":{"answer":"instance_7","timespent":0},"q12":{"answer":"instance_13","timespent":0},"q13":{"answer":"instance_20","timespent":0},"q14":{"answer":"instance_25","timespent":0},"q15":{"answer":"instance_20","timespent":0},"q16":{"answer":"instance_5","timespent":0},"q17":{"answer":"instance_23","timespent":0},"q2":{"answer":"instance_3","timespent":0},"q3":{"answer":"instance_3","timespent":0},"q4":{"answer":"instance_2","timespent":0},"q5":{"answer":"instance_3","timespent":0},"q6":{"answer":"instance_6","timespent":0},"q7":{"answer":"instance_7","timespent":0},"q8":{"answer":"instance_9","timespent":0},"q9":{"answer":"instance_9","timespent":0}},{"q0":{"answer":"instance_5","timespent":25},"q1":{"answer":"instance_2","timespent":18}},{"q0":{"answer":"instance_5","timespent":22},"q1":{"answer":"instance_5","timespent":40},"q10":{"answer":"instance_1","timespent":10},"q11":{"answer":"instance_1","timespent":10},"q12":{"answer":"instance_13","timespent":37},"q13":{"answer":"instance_13","timespent":11},"q14":{"answer":"instance_6","timespent":17},"q15":{"answer":"instance_5","timespent":12},"q16":{"answer":"instance_5","timespent":12},"q17":{"answer":"instance_5","timespent":11},"q18":{"answer":"instance_1","timespent":11},"q19":{"answer":"instance_1","timespent":9},"q2":{"answer":"instance_3","timespent":40},"q20":{"answer":"instance_10","timespent":29},"q21":{"answer":"instance_10","timespent":42},"q22":{"answer":"instance_3","timespent":11},"q23":{"answer":"instance_3","timespent":8},"q24":{"answer":"instance_35","timespent":17},"q25":{"answer":"instance_35","timespent":7},"q26":{"answer":"instance_4","timespent":11},"q27":{"answer":"instance_5","timespent":7},"q28":{"answer":"instance_2","timespent":13},"q29":{"answer":"instance_49","timespent":39},"q3":{"answer":"instance_2","timespent":11},"q30":{"answer":"instance_2","timespent":12},"q31":{"answer":"instance_2","timespent":7},"q32":{"answer":"instance_5","timespent":9},"q33":{"answer":"instance_5","timespent":7},"q34":{"answer":"instance_6","timespent":11},"q35":{"answer":"instance_6","timespent":10},"q4":{"answer":"instance_2","timespent":10},"q5":{"answer":"instance_1","timespent":8},"q6":{"answer":"instance_5","timespent":20},"q7":{"answer":"instance_0","timespent":11},"q8":{"answer":"instance_9","timespent":8},"q9":{"answer":"instance_9","timespent":8}},{"q0":{"answer":"instance_3","timespent":6},"q1":{"answer":"instance_5","timespent":4},"q10":{"answer":"instance_3","timespent":6},"q11":{"answer":"instance_8","timespent":4},"q12":{"answer":"instance_21","timespent":6},"q13":{"answer":"instance_15","timespent":5},"q14":{"answer":"instance_24","timespent":4},"q15":{"answer":"instance_13","timespent":4},"q16":{"answer":"instance_29","timespent":4},"q17":{"answer":"instance_9","timespent":5},"q18":{"answer":"instance_25","timespent":4},"q19":{"answer":"instance_19","timespent":4},"q2":{"answer":"instance_6","timespent":3},"q20":{"answer":"instance_24","timespent":3},"q21":{"answer":"instance_20","timespent":4},"q22":{"answer":"instance_23","timespent":3},"q23":{"answer":"instance_24","timespent":3},"q24":{"answer":"instance_28","timespent":3},"q25":{"answer":"instance_19","timespent":4},"q26":{"answer":"instance_26","timespent":4},"q27":{"answer":"instance_39","timespent":4},"q28":{"answer":"instance_40","timespent":4},"q29":{"answer":"instance_32","timespent":8},"q3":{"answer":"instance_3","timespent":3},"q30":{"answer":"instance_19","timespent":6},"q31":{"answer":"instance_29","timespent":10},"q32":{"answer":"instance_36","timespent":4},"q33":{"answer":"instance_35","timespent":4},"q34":{"answer":"instance_49","timespent":3},"q35":{"answer":"instance_41","timespent":6},"q4":{"answer":"instance_9","timespent":3},"q5":{"answer":"instance_0","timespent":4},"q6":{"answer":"instance_5","timespent":3},"q7":{"answer":"instance_6","timespent":2},"q8":{"answer":"instance_4","timespent":4},"q9":{"answer":"instance_3","timespent":5}},{"q0":{"answer":"instance_4","timespent":11},"q1":{"answer":"instance_0","timespent":20},"q2":{"answer":"instance_0","timespent":10},"q3":{"answer":"instance_0","timespent":10},"q4":{"answer":"instance_2","timespent":29}},{"q0":{"answer":"instance_5","timespent":24},"q1":{"answer":"instance_5","timespent":28},"q10":{"answer":"instance_5","timespent":8},"q11":{"answer":"instance_5","timespent":3},"q12":{"answer":"instance_13","timespent":13},"q13":{"answer":"instance_13","timespent":15},"q14":{"answer":"instance_3","timespent":12},"q15":{"answer":"instance_8","timespent":6},"q16":{"answer":"instance_5","timespent":7},"q17":{"answer":"instance_5","timespent":10},"q18":{"answer":"instance_0","timespent":14},"q19":{"answer":"instance_0","timespent":6},"q2":{"answer":"instance_3","timespent":15},"q20":{"answer":"instance_10","timespent":6},"q21":{"answer":"instance_10","timespent":5},"q22":{"answer":"instance_0","timespent":6},"q23":{"answer":"instance_0","timespent":6},"q24":{"answer":"instance_35","timespent":10},"q25":{"answer":"instance_0","timespent":10},"q26":{"answer":"instance_0","timespent":5},"q27":{"answer":"instance_0","timespent":5},"q28":{"answer":"instance_2","timespent":7},"q29":{"answer":"instance_2","timespent":4},"q3":{"answer":"instance_3","timespent":8},"q30":{"answer":"instance_16","timespent":10},"q31":{"answer":"instance_0","timespent":3},"q32":{"answer":"instance_5","timespent":8},"q33":{"answer":"instance_5","timespent":4},"q34":{"answer":"instance_0","timespent":2},"q35":{"answer":"instance_0","timespent":3},"q4":{"answer":"instance_2","timespent":8},"q5":{"answer":"instance_2","timespent":11},"q6":{"answer":"instance_7","timespent":11},"q7":{"answer":"instance_7","timespent":4},"q8":{"answer":"instance_9","timespent":5},"q9":{"answer":"instance_9","timespent":17}},{"q0":{"answer":"instance_7","timespent":32},"q1":{"answer":"instance_1","timespent":12},"q10":{"answer":"instance_3","timespent":4},"q11":{"answer":"instance_1","timespent":4},"q12":{"answer":"instance_22","timespent":15},"q13":{"answer":"instance_6","timespent":6},"q14":{"answer":"instance_0","timespent":4},"q15":{"answer":"instance_0","timespent":6},"q16":{"answer":"instance_2","timespent":8},"q17":{"answer":"instance_3","timespent":9},"q18":{"answer":"instance_6","timespent":3},"q19":{"answer":"instance_10","timespent":6},"q2":{"answer":"instance_9","timespent":10},"q20":{"answer":"instance_5","timespent":4},"q21":{"answer":"instance_20","timespent":8},"q22":{"answer":"instance_1","timespent":5},"q23":{"answer":"instance_1","timespent":7},"q24":{"answer":"instance_6","timespent":7},"q25":{"answer":"instance_19","timespent":7},"q26":{"answer":"instance_9","timespent":6},"q27":{"answer":"instance_17","timespent":7},"q28":{"answer":"instance_7","timespent":6},"q29":{"answer":"instance_20","timespent":6},"q3":{"answer":"instance_5","timespent":8},"q30":{"answer":"instance_0","timespent":5},"q31":{"answer":"instance_10","timespent":4},"q32":{"answer":"instance_4","timespent":8},"q33":{"answer":"instance_0","timespent":13},"q34":{"answer":"instance_7","timespent":5},"q35":{"answer":"instance_5","timespent":3},"q4":{"answer":"instance_7","timespent":8},"q5":{"answer":"instance_2","timespent":13},"q6":{"answer":"instance_4","timespent":12},"q7":{"answer":"instance_3","timespent":3},"q8":{"answer":"instance_9","timespent":2},"q9":{"answer":"instance_3","timespent":4}},{"q0":{"answer":"instance_5","timespent":43},"q1":{"answer":"instance_2","timespent":37},"q10":{"answer":"instance_1","timespent":0},"q11":{"answer":"instance_1","timespent":0},"q12":{"answer":"instance_13","timespent":0},"q13":{"answer":"instance_24","timespent":0},"q14":{"answer":"instance_5","timespent":0},"q15":{"answer":"instance_5","timespent":0},"q16":{"answer":"instance_5","timespent":0},"q17":{"answer":"instance_20","timespent":0},"q18":{"answer":"instance_2","timespent":0},"q19":{"answer":"instance_2","timespent":0},"q2":{"answer":"instance_2","timespent":60},"q20":{"answer":"instance_10","timespent":0},"q21":{"answer":"instance_26","timespent":0},"q22":{"answer":"instance_4","timespent":0},"q23":{"answer":"instance_4","timespent":0},"q24":{"answer":"instance_35","timespent":0},"q25":{"answer":"instance_6","timespent":0},"q26":{"answer":"instance_4","timespent":0},"q27":{"answer":"instance_4","timespent":0},"q28":{"answer":"instance_2","timespent":0},"q29":{"answer":"instance_34","timespent":0},"q3":{"answer":"instance_2","timespent":0},"q30":{"answer":"instance_2","timespent":0},"q31":{"answer":"instance_1","timespent":0},"q32":{"answer":"instance_5","timespent":0},"q33":{"answer":"instance_43","timespent":0},"q34":{"answer":"instance_6","timespent":0},"q35":{"answer":"instance_6","timespent":0},"q4":{"answer":"instance_2","timespent":0},"q5":{"answer":"instance_2","timespent":0},"q6":{"answer":"instance_5","timespent":0},"q7":{"answer":"instance_9","timespent":0},"q8":{"answer":"instance_4","timespent":0},"q9":{"answer":"instance_3","timespent":0}},{"q0":{"answer":"instance_5","timespent":50},"q1":{"answer":"instance_5","timespent":49},"q2":{"answer":"instance_1","timespent":32},"q3":{"answer":"instance_3","timespent":60},"q4":{"answer":"instance_5","timespent":0},"q5":{"answer":"instance_5","timespent":0}},{"q0":{"answer":"instance_2","timespent":23}},{"q0":{"answer":"instance_5","timespent":40},"q1":{"answer":"instance_5","timespent":60},"q2":{"answer":"instance_3","timespent":0}},{"q0":{"answer":"instance_5","timespent":28},"q1":{"answer":"instance_5","timespent":16},"q10":{"answer":"instance_7","timespent":21},"q11":{"answer":"instance_3","timespent":3},"q12":{"answer":"instance_16","timespent":4},"q13":{"answer":"instance_25","timespent":3},"q14":{"answer":"instance_23","timespent":4},"q15":{"answer":"instance_21","timespent":3},"q16":{"answer":"instance_24","timespent":4},"q17":{"answer":"instance_27","timespent":5},"q18":{"answer":"instance_23","timespent":2},"q19":{"answer":"instance_24","timespent":4},"q2":{"answer":"instance_1","timespent":19},"q20":{"answer":"instance_24","timespent":2},"q21":{"answer":"instance_24","timespent":3},"q22":{"answer":"instance_20","timespent":5},"q23":{"answer":"instance_4","timespent":3},"q24":{"answer":"instance_40","timespent":3},"q25":{"answer":"instance_13","timespent":3},"q26":{"answer":"instance_40","timespent":3},"q27":{"answer":"instance_39","timespent":3},"q28":{"answer":"instance_12","timespent":3},"q29":{"answer":"instance_41","timespent":3},"q3":{"answer":"instance_1","timespent":30},"q30":{"answer":"instance_17","timespent":4},"q31":{"answer":"instance_42","timespent":4},"q32":{"answer":"instance_1","timespent":3},"q33":{"answer":"instance_0","timespent":4},"q34":{"answer":"instance_9","timespent":2},"q35":{"answer":"instance_5","timespent":3},"q4":{"answer":"instance_2","timespent":11},"q5":{"answer":"instance_2","timespent":16},"q6":{"answer":"instance_5","timespent":16},"q7":{"answer":"instance_5","timespent":21},"q8":{"answer":"instance_9","timespent":17},"q9":{"answer":"instance_9","timespent":33}},{"q0":{"answer":"instance_4","timespent":8},"q1":{"answer":"instance_8","timespent":4},"q10":{"answer":"instance_3","timespent":0},"q2":{"answer":"instance_9","timespent":3},"q3":{"answer":"instance_6","timespent":60},"q4":{"answer":"instance_6","timespent":0},"q5":{"answer":"instance_1","timespent":0},"q6":{"answer":"instance_8","timespent":0},"q7":{"answer":"instance_7","timespent":0},"q8":{"answer":"instance_5","timespent":0},"q9":{"answer":"instance_4","timespent":0}},{"q0":{"answer":"instance_5","timespent":16},"q1":{"answer":"instance_5","timespent":17}},{"q0":{"answer":"instance_5","timespent":47},"q1":{"answer":"instance_2","timespent":21},"q10":{"answer":"instance_5","timespent":14},"q11":{"answer":"instance_0","timespent":16},"q12":{"answer":"instance_13","timespent":15},"q13":{"answer":"instance_2","timespent":27},"q14":{"answer":"instance_25","timespent":18},"q15":{"answer":"instance_18","timespent":35},"q16":{"answer":"instance_5","timespent":15},"q17":{"answer":"instance_8","timespent":19},"q2":{"answer":"instance_1","timespent":34},"q3":{"answer":"instance_1","timespent":37},"q4":{"answer":"instance_2","timespent":13},"q5":{"answer":"instance_2","timespent":23},"q6":{"answer":"instance_7","timespent":25},"q7":{"answer":"instance_4","timespent":21},"q8":{"answer":"instance_9","timespent":11},"q9":{"answer":"instance_9","timespent":16}},{"q0":{"answer":"instance_6","timespent":13},"q1":{"answer":"instance_9","timespent":18},"q10":{"answer":"instance_5","timespent":6},"q11":{"answer":"instance_7","timespent":6},"q12":{"answer":"instance_8","timespent":11},"q13":{"answer":"instance_11","timespent":9},"q14":{"answer":"instance_17","timespent":16},"q15":{"answer":"instance_21","timespent":4},"q16":{"answer":"instance_5","timespent":6},"q17":{"answer":"instance_8","timespent":13},"q18":{"answer":"instance_9","timespent":14},"q19":{"answer":"instance_6","timespent":23},"q2":{"answer":"instance_3","timespent":35},"q20":{"answer":"instance_10","timespent":12},"q21":{"answer":"instance_22","timespent":16},"q22":{"answer":"instance_4","timespent":16},"q23":{"answer":"instance_6","timespent":30},"q24":{"answer":"instance_4","timespent":9},"q25":{"answer":"instance_10","timespent":12},"q26":{"answer":"instance_6","timespent":10},"q27":{"answer":"instance_5","timespent":8},"q28":{"answer":"instance_13","timespent":21},"q29":{"answer":"instance_29","timespent":6},"q3":{"answer":"instance_8","timespent":14},"q30":{"answer":"instance_6","timespent":6},"q31":{"answer":"instance_6","timespent":6},"q32":{"answer":"instance_7","timespent":6},"q33":{"answer":"instance_27","timespent":5},"q34":{"answer":"instance_12","timespent":6},"q35":{"answer":"instance_12","timespent":8},"q4":{"answer":"instance_2","timespent":8},"q5":{"answer":"instance_6","timespent":7},"q6":{"answer":"instance_9","timespent":8},"q7":{"answer":"instance_6","timespent":4},"q8":{"answer":"instance_1","timespent":5},"q9":{"answer":"instance_7","timespent":5}},{"q0":{"answer":"instance_5","timespent":23},"q1":{"answer":"instance_0","timespent":23},"q10":{"answer":"instance_5","timespent":8},"q11":{"answer":"instance_1","timespent":31},"q12":{"answer":"instance_13","timespent":33},"q13":{"answer":"instance_17","timespent":37},"q14":{"answer":"instance_25","timespent":10},"q15":{"answer":"instance_20","timespent":7},"q16":{"answer":"instance_5","timespent":6},"q17":{"answer":"instance_24","timespent":10},"q18":{"answer":"instance_26","timespent":12},"q19":{"answer":"instance_26","timespent":7},"q2":{"answer":"instance_1","timespent":6},"q20":{"answer":"instance_10","timespent":7},"q21":{"answer":"instance_25","timespent":13},"q22":{"answer":"instance_4","timespent":12},"q23":{"answer":"instance_0","timespent":8},"q24":{"answer":"instance_35","timespent":10},"q25":{"answer":"instance_6","timespent":13},"q26":{"answer":"instance_42","timespent":14},"q27":{"answer":"instance_17","timespent":9},"q28":{"answer":"instance_2","timespent":7},"q29":{"answer":"instance_35","timespent":11},"q3":{"answer":"instance_5","timespent":9},"q30":{"answer":"instance_2","timespent":9},"q31":{"answer":"instance_4","timespent":12},"q32":{"answer":"instance_5","timespent":5},"q33":{"answer":"instance_47","timespent":12},"q34":{"answer":"instance_31","timespent":22},"q35":{"answer":"instance_15","timespent":9},"q4":{"answer":"instance_2","timespent":7},"q5":{"answer":"instance_7","timespent":8},"q6":{"answer":"instance_7","timespent":9},"q7":{"answer":"instance_5","timespent":12},"q8":{"answer":"instance_9","timespent":6},"q9":{"answer":"instance_9","timespent":12}},{"q0":{"answer":"instance_5","timespent":27},"q1":{"answer":"instance_2","timespent":43},"q10":{"answer":"instance_5","timespent":16},"q11":{"answer":"instance_6","timespent":25},"q12":{"answer":"instance_13","timespent":21},"q13":{"answer":"instance_17","timespent":34},"q14":{"answer":"instance_25","timespent":20},"q15":{"answer":"instance_20","timespent":22},"q16":{"answer":"instance_5","timespent":9},"q17":{"answer":"instance_5","timespent":18},"q18":{"answer":"instance_19","timespent":10},"q19":{"answer":"instance_26","timespent":16},"q2":{"answer":"instance_1","timespent":10},"q20":{"answer":"instance_10","timespent":7},"q21":{"answer":"instance_10","timespent":12},"q22":{"answer":"instance_4","timespent":13},"q23":{"answer":"instance_21","timespent":25},"q24":{"answer":"instance_35","timespent":28},"q25":{"answer":"instance_48","timespent":12},"q26":{"answer":"instance_46","timespent":37},"q27":{"answer":"instance_48","timespent":15},"q28":{"answer":"instance_2","timespent":6},"q29":{"answer":"instance_22","timespent":9},"q3":{"answer":"instance_1","timespent":37},"q30":{"answer":"instance_23","timespent":11},"q31":{"answer":"instance_2","timespent":7},"q32":{"answer":"instance_5","timespent":7},"q33":{"answer":"instance_5","timespent":6},"q34":{"answer":"instance_5","timespent":11},"q35":{"answer":"instance_29","timespent":9},"q4":{"answer":"instance_2","timespent":13},"q5":{"answer":"instance_3","timespent":27},"q6":{"answer":"instance_7","timespent":21},"q7":{"answer":"instance_7","timespent":23},"q8":{"answer":"instance_9","timespent":11},"q9":{"answer":"instance_9","timespent":13}},{"q0":{"answer":"instance_3","timespent":40},"q1":{"answer":"instance_0","timespent":24},"q10":{"answer":"instance_6","timespent":20},"q11":{"answer":"instance_6","timespent":14},"q12":{"answer":"instance_5","timespent":36},"q13":{"answer":"instance_8","timespent":13},"q14":{"answer":"instance_6","timespent":16},"q15":{"answer":"instance_6","timespent":20},"q16":{"answer":"instance_22","timespent":9},"q17":{"answer":"instance_6","timespent":13},"q18":{"answer":"instance_23","timespent":14},"q19":{"answer":"instance_16","timespent":14},"q2":{"answer":"instance_2","timespent":54},"q20":{"answer":"instance_10","timespent":7},"q21":{"answer":"instance_6","timespent":9},"q22":{"answer":"instance_6","timespent":9},"q23":{"answer":"instance_6","timespent":10},"q24":{"answer":"instance_4","timespent":13},"q25":{"answer":"instance_40","timespent":18},"q26":{"answer":"instance_5","timespent":8},"q27":{"answer":"instance_5","timespent":11},"q28":{"answer":"instance_2","timespent":32},"q29":{"answer":"instance_16","timespent":7},"q3":{"answer":"instance_2","timespent":14},"q30":{"answer":"instance_15","timespent":6},"q31":{"answer":"instance_29","timespent":8},"q32":{"answer":"instance_20","timespent":7},"q33":{"answer":"instance_45","timespent":5},"q34":{"answer":"instance_45","timespent":4},"q35":{"answer":"instance_42","timespent":4},"q4":{"answer":"instance_3","timespent":31},"q5":{"answer":"instance_2","timespent":37},"q6":{"answer":"instance_6","timespent":44},"q7":{"answer":"instance_3","timespent":26},"q8":{"answer":"instance_9","timespent":16},"q9":{"answer":"instance_9","timespent":19}},{"q0":{"answer":"instance_3","timespent":34},"q1":{"answer":"instance_2","timespent":27},"q10":{"answer":"instance_1","timespent":34},"q11":{"answer":"instance_2","timespent":13},"q12":{"answer":"instance_13","timespent":21},"q13":{"answer":"instance_4","timespent":30},"q14":{"answer":"instance_5","timespent":19},"q15":{"answer":"instance_6","timespent":20},"q16":{"answer":"instance_5","timespent":12},"q17":{"answer":"instance_24","timespent":18},"q18":{"answer":"instance_2","timespent":14},"q19":{"answer":"instance_2","timespent":13},"q2":{"answer":"instance_1","timespent":30},"q20":{"answer":"instance_10","timespent":12},"q21":{"answer":"instance_10","timespent":24},"q22":{"answer":"instance_4","timespent":17},"q23":{"answer":"instance_4","timespent":14},"q24":{"answer":"instance_35","timespent":15},"q25":{"answer":"instance_48","timespent":30},"q26":{"answer":"instance_5","timespent":23},"q27":{"answer":"instance_5","timespent":20},"q28":{"answer":"instance_2","timespent":18},"q29":{"answer":"instance_49","timespent":24},"q3":{"answer":"instance_1","timespent":30},"q30":{"answer":"instance_2","timespent":31},"q31":{"answer":"instance_2","timespent":21},"q32":{"answer":"instance_5","timespent":17},"q33":{"answer":"instance_14","timespent":39},"q34":{"answer":"instance_6","timespent":19},"q35":{"answer":"instance_6","timespent":17},"q4":{"answer":"instance_2","timespent":11},"q5":{"answer":"instance_2","timespent":19},"q6":{"answer":"instance_7","timespent":10},"q7":{"answer":"instance_7","timespent":16},"q8":{"answer":"instance_9","timespent":12},"q9":{"answer":"instance_1","timespent":23}},{"q0":{"answer":"instance_5","timespent":24},"q1":{"answer":"instance_0","timespent":14},"q10":{"answer":"instance_1","timespent":10},"q11":{"answer":"instance_1","timespent":7},"q12":{"answer":"instance_13","timespent":11},"q13":{"answer":"instance_13","timespent":17},"q14":{"answer":"instance_5","timespent":19},"q15":{"answer":"instance_5","timespent":10},"q16":{"answer":"instance_5","timespent":10},"q17":{"answer":"instance_5","timespent":8},"q18":{"answer":"instance_1","timespent":8},"q19":{"answer":"instance_1","timespent":6},"q2":{"answer":"instance_3","timespent":15},"q20":{"answer":"instance_10","timespent":7},"q21":{"answer":"instance_19","timespent":17},"q22":{"answer":"instance_2","timespent":9},"q23":{"answer":"instance_2","timespent":9},"q24":{"answer":"instance_34","timespent":15},"q25":{"answer":"instance_34","timespent":7},"q26":{"answer":"instance_4","timespent":14},"q27":{"answer":"instance_4","timespent":8},"q28":{"answer":"instance_2","timespent":15},"q29":{"answer":"instance_2","timespent":30},"q3":{"answer":"instance_3","timespent":8},"q30":{"answer":"instance_1","timespent":8},"q31":{"answer":"instance_1","timespent":6},"q32":{"answer":"instance_5","timespent":10},"q33":{"answer":"instance_5","timespent":19},"q34":{"answer":"instance_5","timespent":14},"q35":{"answer":"instance_5","timespent":13},"q4":{"answer":"instance_2","timespent":8},"q5":{"answer":"instance_2","timespent":12},"q6":{"answer":"instance_3","timespent":34},"q7":{"answer":"instance_3","timespent":13},"q8":{"answer":"instance_9","timespent":29},"q9":{"answer":"instance_9","timespent":9}},{"q0":{"answer":"instance_5","timespent":22},"q1":{"answer":"instance_1","timespent":60},"q10":{"answer":"instance_7","timespent":0},"q11":{"answer":"instance_5","timespent":0},"q12":{"answer":"instance_13","timespent":0},"q13":{"answer":"instance_1","timespent":0},"q14":{"answer":"instance_2","timespent":0},"q15":{"answer":"instance_12","timespent":0},"q16":{"answer":"instance_5","timespent":0},"q17":{"answer":"instance_15","timespent":0},"q18":{"answer":"instance_7","timespent":0},"q19":{"answer":"instance_20","timespent":0},"q2":{"answer":"instance_6","timespent":0},"q20":{"answer":"instance_10","timespent":0},"q21":{"answer":"instance_6","timespent":0},"q22":{"answer":"instance_3","timespent":0},"q23":{"answer":"instance_19","timespent":0},"q24":{"answer":"instance_35","timespent":0},"q25":{"answer":"instance_11","timespent":0},"q26":{"answer":"instance_14","timespent":0},"q27":{"answer":"instance_5","timespent":0},"q28":{"answer":"instance_2","timespent":0},"q29":{"answer":"instance_49","timespent":0},"q3":{"answer":"instance_3","timespent":0},"q30":{"answer":"instance_9","timespent":0},"q31":{"answer":"instance_21","timespent":0},"q32":{"answer":"instance_5","timespent":0},"q33":{"answer":"instance_18","timespent":0},"q34":{"answer":"instance_20","timespent":0},"q35":{"answer":"instance_17","timespent":0},"q4":{"answer":"instance_2","timespent":0},"q5":{"answer":"instance_0","timespent":0},"q6":{"answer":"instance_3","timespent":0},"q7":{"answer":"instance_3","timespent":0},"q8":{"answer":"instance_9","timespent":0},"q9":{"answer":"instance_0","timespent":0}},{"q0":{"answer":"instance_5","timespent":58},"q1":{"answer":"instance_2","timespent":55},"q2":{"answer":"instance_1","timespent":33}},{"q0":{"answer":"instance_6","timespent":34},"q1":{"answer":"instance_3","timespent":15},"q10":{"answer":"instance_0","timespent":56},"q11":{"answer":"instance_0","timespent":15},"q12":{"answer":"instance_13","timespent":14},"q13":{"answer":"instance_18","timespent":10},"q14":{"answer":"instance_0","timespent":14},"q15":{"answer":"instance_0","timespent":6},"q16":{"answer":"instance_5","timespent":10},"q17":{"answer":"instance_15","timespent":11},"q18":{"answer":"instance_0","timespent":10},"q19":{"answer":"instance_0","timespent":6},"q2":{"answer":"instance_3","timespent":8},"q20":{"answer":"instance_10","timespent":8},"q21":{"answer":"instance_24","timespent":15},"q22":{"answer":"instance_0","timespent":5},"q23":{"answer":"instance_0","timespent":4},"q24":{"answer":"instance_35","timespent":19},"q25":{"answer":"instance_30","timespent":17},"q26":{"answer":"instance_0","timespent":6},"q27":{"answer":"instance_0","timespent":5},"q28":{"answer":"instance_2","timespent":19},"q29":{"answer":"instance_49","timespent":8},"q3":{"answer":"instance_3","timespent":6},"q30":{"answer":"instance_0","timespent":8},"q31":{"answer":"instance_0","timespent":4},"q32":{"answer":"instance_5","timespent":9},"q33":{"answer":"instance_49","timespent":16},"q34":{"answer":"instance_0","timespent":5},"q35":{"answer":"instance_0","timespent":4},"q4":{"answer":"instance_2","timespent":12},"q5":{"answer":"instance_2","timespent":22},"q6":{"answer":"instance_3","timespent":19},"q7":{"answer":"instance_0","timespent":23},"q8":{"answer":"instance_9","timespent":9},"q9":{"answer":"instance_9","timespent":8}},{"q0":{"answer":"instance_5","timespent":46},"q1":{"answer":"instance_2","timespent":24},"q10":{"answer":"instance_5","timespent":10},"q11":{"answer":"instance_5","timespent":10},"q12":{"answer":"instance_13","timespent":14},"q13":{"answer":"instance_26","timespent":12},"q14":{"answer":"instance_25","timespent":17},"q15":{"answer":"instance_7","timespent":14},"q16":{"answer":"instance_5","timespent":13},"q17":{"answer":"instance_19","timespent":11},"q18":{"answer":"instance_26","timespent":18},"q19":{"answer":"instance_11","timespent":13},"q2":{"answer":"instance_1","timespent":16},"q20":{"answer":"instance_10","timespent":9},"q21":{"answer":"instance_26","timespent":13},"q22":{"answer":"instance_3","timespent":15},"q23":{"answer":"instance_10","timespent":13},"q24":{"answer":"instance_35","timespent":15},"q25":{"answer":"instance_41","timespent":20},"q26":{"answer":"instance_22","timespent":12},"q27":{"answer":"instance_27","timespent":16},"q28":{"answer":"instance_2","timespent":18},"q29":{"answer":"instance_37","timespent":22},"q3":{"answer":"instance_1","timespent":20},"q30":{"answer":"instance_9","timespent":18},"q31":{"answer":"instance_47","timespent":14},"q32":{"answer":"instance_5","timespent":13},"q33":{"answer":"instance_43","timespent":13},"q34":{"answer":"instance_10","timespent":13},"q35":{"answer":"instance_48","timespent":15},"q4":{"answer":"instance_2","timespent":11},"q5":{"answer":"instance_2","timespent":29},"q6":{"answer":"instance_7","timespent":18},"q7":{"answer":"instance_7","timespent":15},"q8":{"answer":"instance_9","timespent":10},"q9":{"answer":"instance_9","timespent":24}}]
+        /* XLS Rows Data */
+        var xlsRows = [{
+            "EmployeeID": "EMP001",
+            "FullName": "Jolly"
+        },
+            {
+                "EmployeeID": "EMP002",
+                "FullName": "Macias"
+            },
+            {
+                "EmployeeID": "EMP003",
+                "FullName": "Lucian"
+            },
+            {
+                "EmployeeID": "EMP004",
+                "FullName": "Blaze"
+            },
+            {
+                "EmployeeID": "EMP005",
+                "FullName": "Blossom"
+            },
+            {
+                "EmployeeID": "EMP006",
+                "FullName": "Kerry"
+            },
+            {
+                "EmployeeID": "EMP007",
+                "FullName": "Adele"
+            },
+            {
+                "EmployeeID": "EMP008",
+                "FullName": "Freaky"
+            },
+            {
+                "EmployeeID": "EMP009",
+                "FullName": "Brooke"
+            },
+            {
+                "EmployeeID": "EMP010",
+                "FullName": "FreakyJolly.Com"
+            }
+        ];
+
+
+        createXLSLFormatObj.push(xlsHeader);
+        $.each(_xlsRows, function(index, value) {
+            var innerRowData = [];
+            console.log(value[`q${index}`])
+            //$("tbody").append('<tr><td>' + value[`q${index}`] + '</td><td>' + value[`q${index}`].answer + '</td></tr>');
+            $.each(value, function(ind, val) {
+
+                innerRowData.push(val);
+            });
+            console.log(innerRowData)
+            createXLSLFormatObj.push(innerRowData);
+        });
+
+
+        /* File Name */
+        var filename = "FreakyJSON_To_XLS.xlsx";
+
+        /* Sheet Name */
+        var ws_name = "FreakySheet";
+
+        if (typeof console !== 'undefined') console.log(new Date());
+        var wb = XLSX.utils.book_new(),
+            ws = XLSX.utils.aoa_to_sheet(createXLSLFormatObj);
+
+        /* Add worksheet to workbook */
+        XLSX.utils.book_append_sheet(wb, ws, ws_name);
+
+        // /* Write workbook and Download */
+        // if (typeof console !== 'undefined') console.log(new Date());
+        // XLSX.writeFile(wb, filename);
+        // if (typeof console !== 'undefined') console.log(new Date());
+
+    });
+</script>
+<span class="display-4 spacer">Convert JSON data into XLS EXCEL and Download</span>
+<h4 class="display-5 spacer">Table Format of DATA to Download</h4>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">EmployeeID</th>
+        <th scope="col">FullName</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<h4 class="display-5 spacer">JSON Format of DATA to Download</h4>
+<!-- Language hints can be put in XML application directive style comments. -->
+<?prettify lang=html linenums=true?>
+<pre class="prettyprint" id="quine">
+
+
+[{
+ "EmployeeID": "EMP001",
+ "FullName": "Jolly"
+ },
+ {
+ "EmployeeID": "EMP002",
+ "FullName": "Macias"
+ },
+ {
+ "EmployeeID": "EMP003",
+ "FullName": "Lucian"
+ },
+ {
+ "EmployeeID": "EMP004",
+ "FullName": "Blaze"
+ },
+ {
+ "EmployeeID": "EMP005",
+ "FullName": "Blossom"
+ },
+ {
+ "EmployeeID": "EMP006",
+ "FullName": "Kerry"
+ },
+ {
+ "EmployeeID": "EMP007",
+ "FullName": "Adele"
+ },
+ {
+ "EmployeeID": "EMP008",
+ "FullName": "Freaky"
+ },
+ {
+ "EmployeeID": "EMP009",
+ "FullName": "Brooke"
+ },
+ {
+ "EmployeeID": "EMP010",
+ "FullName": "FreakyJolly.Com"
+ }
+]
+
+</pre>
+</body>
+
+</html>
