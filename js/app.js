@@ -15,15 +15,19 @@ class UserStudy {
             .onComplete
             .add(function (result) {
                 let val = _this.survey.currentPage.getValue();
-                let qname = Object.keys(val)[0];
-                let qanwer = val[qname];
+                Object.keys(val).forEach(key=>{
+                    let qname = Object.keys(val)[key];
+                    let qanwer = val[qname];
 
-                database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
+                    database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
+                })
+
             });
         _this.survey.onCurrentPageChanging.add(function (sender, options) {
             // console.log(`Page changing: `+ survey.currentPage.timeSpent)
             let val = _this.survey.currentPage.getValue();
             let qname = Object.keys(val)[0];
+            console.log(Object.keys(val))
             let qanwer = val[qname];
 
            database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
@@ -76,7 +80,7 @@ class UserStudy {
                 },
                 {
                     type: "radiogroup",
-                    name: "degee",
+                    name: "degree",
                     title: "What is your current degree?",
                     choices:['Undergraduate','Master','PhD','Other']
                 }
