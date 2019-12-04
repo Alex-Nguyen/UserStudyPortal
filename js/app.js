@@ -52,7 +52,7 @@ class UserStudy {
                 {
                     type: "html",
                     name: "info",
-                    html: '<table width="100%"><tr><td align="center"><iframe width="940px" height="680px"  src="https://www.youtube.com/embed/G6544NrpbrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe></td></tr></table>'
+                    html: '<table width="100%"><tr><td align="center"><iframe width="940px" height="680px"  src="https://www.youtube.com/embed/7qZWQh1CWSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe></td></tr></table>'
                 },
                 {
                     type: "html",
