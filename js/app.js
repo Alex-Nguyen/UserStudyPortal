@@ -26,7 +26,14 @@ class UserStudy {
             let qname = Object.keys(val)[0];
             let qanwer = val[qname];
 
-           database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
+          // database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
+        });
+        _this.survey.onTimerPanelInfoText.add((sender, options) => {
+            if (sender.currentPage.isReadOnly) {
+                options.text = '';
+            } else {
+                options.text = `REMAINING TIME IN SECONDS: ${60 -_this.survey.currentPage.timeSpent}`;
+            }
         });
 
         $("#surveyElement").Survey({
@@ -41,13 +48,15 @@ class UserStudy {
                     type: "html",
                     html: "You are about to start user study by evaluating visualization design. " +
                         "<br/>You have 1 minutes for every page and 20 minutes for the whole survey of 18 questions." +
-                        "<br/>Please click on <b>'Start Survey'</b> button when you are ready." +
-                        "<p> Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous</p>"
-                },
+                        "<br/>Please click on <b>'Start Survey'</b> button when you are ready."},
                 {
                     type: "html",
                     name: "info",
-                    html: '<iframe width="940px" height="680px"  src="https://www.youtube.com/embed/G6544NrpbrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>'
+                    html: '<table width="100%"><tr><td align="center"><iframe width="940px" height="680px"  src="https://www.youtube.com/embed/G6544NrpbrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe></td></tr></table>'
+                },
+                {
+                    type: "html",
+                    html: "Consent notice: The purpose of this study is to gather user's feedback to evaluate a visualization design. No personal information is collected and all user's reponses are confidential and anonymous"
                 },
 
             ]
@@ -519,8 +528,9 @@ class UserStudy {
         questions.push(finishPage)
         return {
             title: "Timeline visualization - User study",
-            showProgressBar: "top",
+            showProgressBar: "bottom",
             showTimerPanel: "top",
+            showTimerPanelMode: "page",
             maxTimeToFinishPage: this.maxTimeToFinishPage,
             maxTimeToFinish: this.maxTimeToFinish,
             firstPageIsStarted: true,

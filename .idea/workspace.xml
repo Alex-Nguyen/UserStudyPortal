@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +56,7 @@
       <updated>1575238588629</updated>
       <workItem from="1575238589779" duration="11789000" />
       <workItem from="1575256024764" duration="16781000" />
-      <workItem from="1575398645307" duration="3299000" />
+      <workItem from="1575398645307" duration="8183000" />
     </task>
     <servers />
   </component>
@@ -81,7 +81,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/app.js</url>
-          <line>528</line>
+          <line>538</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
