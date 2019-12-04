@@ -26,7 +26,7 @@ class UserStudy {
             let qname = Object.keys(val)[0];
             let qanwer = val[qname];
 
-          // database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
+           database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
         });
         _this.survey.onTimerPanelInfoText.add((sender, options) => {
             if (sender.currentPage.isReadOnly) {
