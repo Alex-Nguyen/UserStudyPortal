@@ -8,6 +8,13 @@ class UserStudy {
 
     init() {
         let _this = this;
+        let d = new Date();
+        let month = d.getMonth()+1;
+        let day = d.getDay()+1;
+        let h = d.getHours();
+        let m = d.getMinutes();
+        let second = d.getSeconds();
+        let time = `${month}_${day}_${h}_${m}_${second}`
         let uuid = this.uuidv4();
         let json = this.json();
         _this.survey = new Survey.Model(json);
@@ -16,21 +23,21 @@ class UserStudy {
             .add(function (result) {
                 let val = _this.survey.currentPage.getValue();
                 Object.keys(val).forEach(key=>{
-                    let qname = Object.keys(val)[key];
+                    let qname =key;
                     let qanwer = val[qname];
-
-                    database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
+                    database.ref(`${time}/${qname}`).set({answer: qanwer, timespent:_this.survey.currentPage.timeSpent});
                 })
 
             });
         _this.survey.onCurrentPageChanging.add(function (sender, options) {
             // console.log(`Page changing: `+ survey.currentPage.timeSpent)
             let val = _this.survey.currentPage.getValue();
-            let qname = Object.keys(val)[0];
-            console.log(Object.keys(val))
-            let qanwer = val[qname];
+            Object.keys(val).forEach(key=>{
+                let qname =key;
+                let qanwer = val[qname];
 
-           database.ref(`${uuid}/${qname}`).set({answer: qanwer, timespent: _this.survey.currentPage.timeSpent});
+                database.ref(`${time}/${qname}`).set({answer: qanwer, timespent:_this.survey.currentPage.timeSpent});
+            })
         });
         _this.survey.onTimerPanelInfoText.add((sender, options) => {
             if (sender.currentPage.isReadOnly) {
@@ -66,6 +73,7 @@ class UserStudy {
             ]
         }
         let finishPage ={
+            maxTimeToFinish: 180,
             questions: [
                 {
                     type: "comment",
@@ -117,7 +125,7 @@ class UserStudy {
 
 const params = {
     maxTimeToFinishPage: 60, //in seconds
-    maxTimeToFinish: 1300 //in seconds
+    maxTimeToFinish: 2500 //in seconds
 }
 
 let userstudy = new UserStudy(params);

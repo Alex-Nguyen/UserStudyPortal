@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Quizz</title>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://surveyjs.azureedge.net/1.1.22/survey.css" type="text/css" rel="stylesheet"/>
+<!--    <script src="https://unpkg.com/jquery"></script>-->
+    <script src="https://surveyjs.azureedge.net/1.1.23/survey.jquery.js"></script>
+    <link href="https://surveyjs.azureedge.net/1.1.23/modern.css" type="text/css" rel="stylesheet"/>
+    <script src="js/survey.js"></script>
+
+</head>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAG8Sjacb4FiRwSm5waCtmJ0bspoR4mt9g",
+        authDomain: "timeradar.firebaseapp.com",
+        databaseURL: "https://timeradar.firebaseio.com",
+        projectId: "timeradar",
+        storageBucket: "timeradar.appspot.com",
+        messagingSenderId: "108431377635",
+        appId: "1:108431377635:web:156d003ca0d8f66c4671d6",
+        measurementId: "G-1Y84C94K1X"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+<body>
+<div id="surveyElement"></div>
+<div id="surveyResult"></div>
+</body>
+<script>
+    const database = firebase.database();
+
+    var _fireBaseResult ={};
+    let d = new Date();
+    let month = d.getMonth()+1;
+    let day = d.getDay()+1;
+    let h = d.getHours();
+    let m = d.getMinutes();
+    let second = d.getSeconds();
+    let time = `${month}_${day}_${h}_${m}_${second}`
+    console.log(time)
+    Survey
+        .StylesManager
+        .applyTheme("modern");
+
+    var json = {
+        title: "American History",
+        showProgressBar: "bottom",
+        showTimerPanel: "top",
+        maxTimeToFinishPage: 10,
+        maxTimeToFinish: 25,
+        firstPageIsStarted: true,
+        startSurveyText: "Start Quiz",
+        pages: [
+            {
+                questions: [
+                    {
+                        type: "html",
+                        html: "You are about to start quiz by history. <br/>You have 10 seconds for every page and 25 seconds for the whole survey of 3 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
+                    }
+                ]
+            }, {
+                questions: [
+                    {
+                        type: "radiogroup",
+                        name: "civilwar",
+                        title: "When was the Civil War?",
+                        choices: [
+                            "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
+                        ],
+                        correctAnswer: "1850-1900"
+                    }
+                ]
+            }, {
+                questions: [
+                    {
+                        type: "radiogroup",
+                        name: "libertyordeath",
+                        title: "Who said 'Give me liberty or give me death?'",
+                        choicesOrder: "random",
+                        choices: [
+                            "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
+                        ],
+                        correctAnswer: "Patrick Henry"
+                    }
+                ]
+            }, {
+                maxTimeToFinish: 15,
+                questions: [
+                    {
+                        type: "radiogroup",
+                        name: "magnacarta",
+                        title: "What is the Magna Carta?",
+                        choicesOrder: "random",
+                        choices: [
+                            "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        ],
+                        correctAnswer: "The foundation of the British parliamentary system"
+                    },
+                    {
+                        type: "radiogroup",
+                        name: "q1",
+                        title: "What is the Q1?",
+                        choicesOrder: "random",
+                        choices: [
+                            "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        ],
+                        correctAnswer: "The foundation of the British parliamentary system"
+                    }
+                ]
+            },
+
+        ],
+        completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4>"
+    };
+
+    window.survey = new Survey.Model(json);
+
+    survey
+        .onComplete
+        .add(function (result) {
+            console.log(result.data)
+            document
+                .querySelector('#surveyResult')
+                .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
+        });
+    survey
+        .onComplete
+        .add(function (result) {
+            let val = survey.currentPage.getValue();
+            Object.keys(val).forEach(key=>{
+                let qname =key;
+                let qanwer = val[qname];
+                database.ref(`${time}/${qname}`).set({answer: qanwer, timespent:survey.currentPage.timeSpent});
+            })
+
+        });
+    survey.onCurrentPageChanging.add(function (sender, options) {
+        // console.log(`Page changing: `+ survey.currentPage.timeSpent)
+        let val = survey.currentPage.getValue();
+        Object.keys(val).forEach(key=>{
+            let qname =key;
+            console.log(qname)
+            let qanwer = val[qname];
+
+            database.ref(`${time}/${qname}`).set({answer: qanwer, timespent:survey.currentPage.timeSpent});
+        })
+    });
+
+    $("#surveyElement").Survey({model: survey});
+</script>
+</html>
