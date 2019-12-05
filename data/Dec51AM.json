@@ -1,0 +1,2006 @@
+{
+  "12_4_17_51_22" : {
+    "10_10_a_b" : {
+      "answer" : "7",
+      "timespent" : 7
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 5
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 4
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 4
+    },
+    "10_30_a_b" : {
+      "answer" : "10",
+      "timespent" : 14
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 5
+    },
+    "10_30_b_b" : {
+      "answer" : "30",
+      "timespent" : 8
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 7
+    },
+    "10_50_a_b" : {
+      "answer" : "10",
+      "timespent" : 22
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 14
+    },
+    "10_50_b_b" : {
+      "answer" : "40",
+      "timespent" : 15
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 11
+    },
+    "30_10_a_b" : {
+      "answer" : "1",
+      "timespent" : 21
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 12
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 6
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 5
+    },
+    "30_30_a_b" : {
+      "answer" : "20",
+      "timespent" : 10
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 8
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 11
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 7
+    },
+    "30_50_a_b" : {
+      "answer" : "29",
+      "timespent" : 15
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 8
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 13
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 11
+    },
+    "50_10_a_b" : {
+      "answer" : "34",
+      "timespent" : 21
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 10
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 13
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 13
+    },
+    "50_30_a_b" : {
+      "answer" : "46",
+      "timespent" : 9
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 20
+    },
+    "50_30_b_b" : {
+      "answer" : "5",
+      "timespent" : 37
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 7
+    },
+    "50_50_a_b" : {
+      "answer" : "36",
+      "timespent" : 16
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 7
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 10
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 11
+    },
+    "degree" : {
+      "answer" : "Master",
+      "timespent" : 27
+    },
+    "gender" : {
+      "answer" : "Male",
+      "timespent" : 27
+    },
+    "suggestions" : {
+      "answer" : "Time Radar is  better than bundling in terms of both task 1 and task 2",
+      "timespent" : 27
+    }
+  },
+  "12_4_18_34_27" : {
+    "10_10_a_b" : {
+      "answer" : "7",
+      "timespent" : 20
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 12
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 19
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 10
+    },
+    "10_30_a_b" : {
+      "answer" : "8",
+      "timespent" : 17
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 11
+    },
+    "10_30_b_b" : {
+      "answer" : "9",
+      "timespent" : 24
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 23
+    },
+    "10_50_a_b" : {
+      "answer" : "7",
+      "timespent" : 14
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 13
+    },
+    "10_50_b_b" : {
+      "answer" : "28",
+      "timespent" : 19
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 26
+    },
+    "30_10_a_b" : {
+      "answer" : "23",
+      "timespent" : 15
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 12
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 8
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 12
+    },
+    "30_30_a_b" : {
+      "answer" : "27",
+      "timespent" : 21
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 10
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 13
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 11
+    },
+    "30_50_a_b" : {
+      "answer" : "19",
+      "timespent" : 26
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 21
+    },
+    "30_50_b_b" : {
+      "answer" : "40",
+      "timespent" : 12
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 13
+    },
+    "50_10_a_b" : {
+      "answer" : "20",
+      "timespent" : 60
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 16
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 10
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 13
+    },
+    "50_30_a_b" : {
+      "answer" : "46",
+      "timespent" : 13
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 41
+    },
+    "50_30_b_b" : {
+      "answer" : "3",
+      "timespent" : 11
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 8
+    },
+    "50_50_a_b" : {
+      "answer" : "8",
+      "timespent" : 26
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 14
+    },
+    "50_50_b_b" : {
+      "answer" : "38",
+      "timespent" : 19
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 11
+    },
+    "degree" : {
+      "answer" : "PhD",
+      "timespent" : 49
+    },
+    "gender" : {
+      "answer" : "Female",
+      "timespent" : 49
+    },
+    "suggestions" : {
+      "answer" : "i prefer the time radar visual design much better than the other one because it is clear to the eyes",
+      "timespent" : 49
+    }
+  },
+  "12_4_19_10_44" : {
+    "10_10_a_b" : {
+      "answer" : "9",
+      "timespent" : 12
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 10
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 15
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 9
+    },
+    "10_30_a_b" : {
+      "answer" : "10",
+      "timespent" : 18
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 11
+    },
+    "10_30_b_b" : {
+      "answer" : "22",
+      "timespent" : 12
+    },
+    "10_30_b_l" : {
+      "answer" : "22",
+      "timespent" : 43
+    },
+    "10_50_a_b" : {
+      "answer" : "6",
+      "timespent" : 38
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 21
+    },
+    "10_50_b_b" : {
+      "answer" : "21",
+      "timespent" : 22
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 29
+    },
+    "30_10_a_b" : {
+      "answer" : "23",
+      "timespent" : 24
+    },
+    "30_10_a_l" : {
+      "answer" : "6",
+      "timespent" : 15
+    },
+    "30_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 12
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 15
+    },
+    "30_30_a_b" : {
+      "answer" : "15",
+      "timespent" : 36
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 12
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 18
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 13
+    },
+    "30_50_a_b" : {
+      "answer" : "13",
+      "timespent" : 32
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 17
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 20
+    },
+    "30_50_b_l" : {
+      "answer" : "18",
+      "timespent" : 47
+    },
+    "50_10_a_b" : {
+      "answer" : "38",
+      "timespent" : 45
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 27
+    },
+    "50_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 8
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 16
+    },
+    "50_30_a_b" : {
+      "answer" : "48",
+      "timespent" : 42
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 31
+    },
+    "50_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 30
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 22
+    },
+    "50_50_a_b" : {
+      "answer" : "8",
+      "timespent" : 43
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 14
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 15
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 20
+    },
+    "degree" : {
+      "answer" : "PhD",
+      "timespent" : 4
+    },
+    "gender" : {
+      "answer" : "Male",
+      "timespent" : 4
+    }
+  },
+  "12_4_19_43_42" : {
+    "10_10_a_b" : {
+      "answer" : "9",
+      "timespent" : 28
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 41
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 8
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 10
+    },
+    "10_30_a_b" : {
+      "answer" : "10",
+      "timespent" : 19
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 12
+    },
+    "10_30_b_b" : {
+      "answer" : "22",
+      "timespent" : 21
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 20
+    },
+    "10_50_a_b" : {
+      "answer" : "10",
+      "timespent" : 35
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 11
+    },
+    "10_50_b_b" : {
+      "answer" : "21",
+      "timespent" : 20
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 10
+    },
+    "30_10_a_b" : {
+      "answer" : "5",
+      "timespent" : 9
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 22
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 8
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 9
+    },
+    "30_30_a_b" : {
+      "answer" : "28",
+      "timespent" : 17
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 13
+    },
+    "30_30_b_b" : {
+      "answer" : "22",
+      "timespent" : 40
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 10
+    },
+    "30_50_a_b" : {
+      "answer" : "30",
+      "timespent" : 49
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 16
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 19
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 29
+    },
+    "50_10_a_b" : {
+      "answer" : "8",
+      "timespent" : 10
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 13
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 11
+    },
+    "50_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 25
+    },
+    "50_30_a_b" : {
+      "answer" : "20",
+      "timespent" : 31
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 21
+    },
+    "50_30_b_b" : {
+      "answer" : "30",
+      "timespent" : 29
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 9
+    },
+    "50_50_a_b" : {
+      "answer" : "24",
+      "timespent" : 9
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 14
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 13
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 11
+    },
+    "degree" : {
+      "answer" : "Master",
+      "timespent" : 62
+    },
+    "gender" : {
+      "answer" : "Male",
+      "timespent" : 62
+    },
+    "suggestions" : {
+      "answer" : "I prefer the shape visual design than the line graph without object's shape",
+      "timespent" : 62
+    }
+  },
+  "12_4_21_11_47" : {
+    "10_10_a_b" : {
+      "answer" : "9",
+      "timespent" : 18
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 5
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 10
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 19
+    },
+    "10_30_a_b" : {
+      "answer" : "1",
+      "timespent" : 30
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 9
+    },
+    "10_30_b_b" : {
+      "answer" : "30",
+      "timespent" : 24
+    },
+    "10_30_b_l" : {
+      "answer" : "6",
+      "timespent" : 18
+    },
+    "10_50_a_b" : {
+      "answer" : "7",
+      "timespent" : 31
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 9
+    },
+    "10_50_b_b" : {
+      "answer" : "21",
+      "timespent" : 9
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 10
+    },
+    "30_10_a_b" : {
+      "answer" : "5",
+      "timespent" : 28
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 18
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 8
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 8
+    },
+    "30_30_a_b" : {
+      "answer" : "16",
+      "timespent" : 12
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 18
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 8
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 19
+    },
+    "30_50_a_b" : {
+      "answer" : "10",
+      "timespent" : 10
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 11
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 17
+    },
+    "30_50_b_l" : {
+      "answer" : "16",
+      "timespent" : 25
+    },
+    "50_10_a_b" : {
+      "answer" : "38",
+      "timespent" : 28
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 14
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 15
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 9
+    },
+    "50_30_a_l" : {
+      "answer" : "13",
+      "timespent" : 35
+    },
+    "50_30_b_b" : {
+      "answer" : "5",
+      "timespent" : 8
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 6
+    },
+    "50_50_a_b" : {
+      "answer" : "43",
+      "timespent" : 36
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 9
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 36
+    },
+    "50_50_b_l" : {
+      "answer" : "25",
+      "timespent" : 12
+    },
+    "degree" : {
+      "answer" : "PhD",
+      "timespent" : 47
+    },
+    "gender" : {
+      "answer" : "Prefer not to say",
+      "timespent" : 47
+    },
+    "suggestions" : {
+      "answer" : "The one with multiple lines: it's hard to keep track of one variable",
+      "timespent" : 47
+    }
+  },
+  "12_5_0_18_8" : {
+    "10_10_a_b" : {
+      "answer" : "5",
+      "timespent" : 21
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 6
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 7
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 6
+    },
+    "10_30_a_b" : {
+      "answer" : "8",
+      "timespent" : 13
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 7
+    },
+    "10_30_b_b" : {
+      "answer" : "30",
+      "timespent" : 14
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 7
+    },
+    "10_50_a_b" : {
+      "answer" : "6",
+      "timespent" : 16
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 7
+    },
+    "10_50_b_b" : {
+      "answer" : "40",
+      "timespent" : 15
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 8
+    },
+    "30_10_a_b" : {
+      "answer" : "3",
+      "timespent" : 34
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 7
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 6
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 9
+    },
+    "30_30_a_b" : {
+      "answer" : "29",
+      "timespent" : 10
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 7
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 9
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 12
+    },
+    "30_50_a_b" : {
+      "answer" : "4",
+      "timespent" : 21
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 7
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 10
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 8
+    },
+    "50_10_a_b" : {
+      "answer" : "29",
+      "timespent" : 13
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 9
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 8
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 8
+    },
+    "50_30_a_b" : {
+      "answer" : "46",
+      "timespent" : 18
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 9
+    },
+    "50_30_b_b" : {
+      "answer" : "5",
+      "timespent" : 13
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 7
+    },
+    "50_50_a_b" : {
+      "answer" : "1",
+      "timespent" : 25
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 8
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 10
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 11
+    },
+    "suggestions" : {
+      "answer" : "the first layout, the second layout is really difficult to read when there is overlapping. Especially when two lines are combined then split. I don't know which line go which way",
+      "timespent" : 81
+    }
+  },
+  "12_5_0_27_27" : {
+    "10_10_a_b" : {
+      "answer" : "9",
+      "timespent" : 13
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 5
+    },
+    "10_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 11
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 18
+    },
+    "10_30_a_b" : {
+      "answer" : "8",
+      "timespent" : 13
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 17
+    },
+    "10_30_b_b" : {
+      "answer" : "30",
+      "timespent" : 7
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 11
+    },
+    "10_50_a_b" : {
+      "answer" : "6",
+      "timespent" : 22
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 5
+    },
+    "10_50_b_b" : {
+      "answer" : "40",
+      "timespent" : 23
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 12
+    },
+    "30_10_a_b" : {
+      "answer" : "29",
+      "timespent" : 24
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 6
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 10
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 6
+    },
+    "30_30_a_b" : {
+      "answer" : "29",
+      "timespent" : 8
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 7
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 7
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 6
+    },
+    "30_50_a_b" : {
+      "answer" : "26",
+      "timespent" : 20
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 18
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 8
+    },
+    "30_50_b_l" : {
+      "answer" : "16",
+      "timespent" : 20
+    },
+    "50_10_a_b" : {
+      "answer" : "4",
+      "timespent" : 16
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 30
+    },
+    "50_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 11
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 5
+    },
+    "50_30_a_b" : {
+      "answer" : "20",
+      "timespent" : 13
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 9
+    },
+    "50_30_b_b" : {
+      "answer" : "5",
+      "timespent" : 22
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 22
+    },
+    "50_50_a_b" : {
+      "answer" : "1",
+      "timespent" : 7
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 7
+    },
+    "50_50_b_b" : {
+      "answer" : "39",
+      "timespent" : 27
+    },
+    "50_50_b_l" : {
+      "answer" : "25",
+      "timespent" : 35
+    },
+    "degree" : {
+      "answer" : "Master",
+      "timespent" : 60
+    },
+    "gender" : {
+      "answer" : "Male",
+      "timespent" : 60
+    },
+    "suggestions" : {
+      "answer" : "time radar, i made a random guess on bundle chart. only pick the first one from the left that shows change",
+      "timespent" : 60
+    }
+  },
+  "12_5_0_8_21" : {
+    "10_10_a_b" : {
+      "answer" : "9",
+      "timespent" : 14
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 8
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 6
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 9
+    },
+    "10_30_a_b" : {
+      "answer" : "4",
+      "timespent" : 18
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 7
+    },
+    "10_30_b_b" : {
+      "answer" : "30",
+      "timespent" : 13
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 8
+    },
+    "10_50_a_b" : {
+      "answer" : "7",
+      "timespent" : 22
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 13
+    },
+    "10_50_b_b" : {
+      "answer" : "40",
+      "timespent" : 20
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 9
+    },
+    "30_10_a_b" : {
+      "answer" : "23",
+      "timespent" : 15
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 10
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 7
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 6
+    },
+    "30_30_a_b" : {
+      "answer" : "21",
+      "timespent" : 44
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 10
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 11
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 6
+    },
+    "30_50_a_b" : {
+      "answer" : "18",
+      "timespent" : 14
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 6
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 11
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 10
+    },
+    "50_10_a_b" : {
+      "answer" : "40",
+      "timespent" : 14
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 12
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 15
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 7
+    },
+    "50_30_a_b" : {
+      "answer" : "20",
+      "timespent" : 11
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 13
+    },
+    "50_30_b_b" : {
+      "answer" : "5",
+      "timespent" : 18
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 10
+    },
+    "50_50_a_b" : {
+      "answer" : "1",
+      "timespent" : 12
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 11
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 12
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 12
+    },
+    "degree" : {
+      "answer" : "PhD",
+      "timespent" : 22
+    },
+    "gender" : {
+      "answer" : "Male",
+      "timespent" : 22
+    },
+    "suggestions" : {
+      "answer" : "Time point graph",
+      "timespent" : 22
+    }
+  },
+  "12_5_8_20_36" : {
+    "10_10_a_l" : {
+      "answer" : "4",
+      "timespent" : 4
+    },
+    "10_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 3
+    },
+    "10_10_b_l" : {
+      "answer" : "3",
+      "timespent" : 11
+    },
+    "10_30_a_b" : {
+      "answer" : "5",
+      "timespent" : 4
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 3
+    },
+    "10_30_b_b" : {
+      "answer" : "5",
+      "timespent" : 4
+    },
+    "10_30_b_l" : {
+      "answer" : "2",
+      "timespent" : 19
+    },
+    "10_50_a_b" : {
+      "answer" : "3",
+      "timespent" : 4
+    },
+    "10_50_a_l" : {
+      "answer" : "5",
+      "timespent" : 5
+    },
+    "10_50_b_b" : {
+      "answer" : "4",
+      "timespent" : 4
+    },
+    "10_50_b_l" : {
+      "answer" : "1",
+      "timespent" : 21
+    },
+    "30_10_a_b" : {
+      "answer" : "3",
+      "timespent" : 6
+    },
+    "30_10_a_l" : {
+      "answer" : "3",
+      "timespent" : 7
+    },
+    "30_10_b_b" : {
+      "answer" : "6",
+      "timespent" : 5
+    },
+    "30_10_b_l" : {
+      "answer" : "6",
+      "timespent" : 6
+    },
+    "30_30_a_b" : {
+      "answer" : "4",
+      "timespent" : 6
+    },
+    "30_30_a_l" : {
+      "answer" : "3",
+      "timespent" : 3
+    },
+    "30_30_b_b" : {
+      "answer" : "4",
+      "timespent" : 7
+    },
+    "30_30_b_l" : {
+      "answer" : "4",
+      "timespent" : 3
+    },
+    "30_50_a_b" : {
+      "answer" : "4",
+      "timespent" : 4
+    },
+    "30_50_a_l" : {
+      "answer" : "4",
+      "timespent" : 3
+    },
+    "30_50_b_b" : {
+      "answer" : "5",
+      "timespent" : 3
+    },
+    "30_50_b_l" : {
+      "answer" : "6",
+      "timespent" : 3
+    },
+    "50_10_a_b" : {
+      "answer" : "3",
+      "timespent" : 5
+    },
+    "50_10_a_l" : {
+      "answer" : "6",
+      "timespent" : 4
+    },
+    "50_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 4
+    },
+    "50_10_b_l" : {
+      "answer" : "5",
+      "timespent" : 4
+    },
+    "50_30_a_b" : {
+      "answer" : "2",
+      "timespent" : 9
+    },
+    "50_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 4
+    },
+    "50_30_b_b" : {
+      "answer" : "4",
+      "timespent" : 4
+    },
+    "50_30_b_l" : {
+      "answer" : "4",
+      "timespent" : 3
+    },
+    "50_50_a_b" : {
+      "answer" : "3",
+      "timespent" : 9
+    },
+    "50_50_a_l" : {
+      "answer" : "2",
+      "timespent" : 11
+    },
+    "50_50_b_b" : {
+      "answer" : "3",
+      "timespent" : 7
+    },
+    "50_50_b_l" : {
+      "answer" : "3",
+      "timespent" : 7
+    },
+    "degree" : {
+      "answer" : "Other",
+      "timespent" : 27
+    },
+    "gender" : {
+      "answer" : "Female",
+      "timespent" : 27
+    },
+    "suggestions" : {
+      "answer" : "Exactly",
+      "timespent" : 27
+    }
+  },
+  "12_5_8_31_49" : {
+    "10_10_a_b" : {
+      "answer" : "6",
+      "timespent" : 17
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 43
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 8
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 5
+    },
+    "10_30_a_b" : {
+      "answer" : "5",
+      "timespent" : 13
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 6
+    },
+    "10_30_b_b" : {
+      "answer" : "30",
+      "timespent" : 9
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 13
+    },
+    "10_50_a_b" : {
+      "answer" : "8",
+      "timespent" : 36
+    },
+    "10_50_a_l" : {
+      "answer" : "10",
+      "timespent" : 33
+    },
+    "10_50_b_b" : {
+      "answer" : "40",
+      "timespent" : 14
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 31
+    },
+    "30_10_a_b" : {
+      "answer" : "12",
+      "timespent" : 13
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 18
+    },
+    "30_10_b_b" : {
+      "answer" : "4",
+      "timespent" : 31
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 8
+    },
+    "30_30_a_b" : {
+      "answer" : "26",
+      "timespent" : 9
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 11
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 8
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 10
+    },
+    "30_50_a_b" : {
+      "answer" : "17",
+      "timespent" : 15
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 13
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 11
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 10
+    },
+    "50_10_a_b" : {
+      "answer" : "49",
+      "timespent" : 25
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 20
+    },
+    "50_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 10
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 16
+    },
+    "50_30_a_b" : {
+      "answer" : "21",
+      "timespent" : 34
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 18
+    },
+    "50_30_b_b" : {
+      "answer" : "17",
+      "timespent" : 17
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 12
+    },
+    "50_50_a_b" : {
+      "answer" : "25",
+      "timespent" : 30
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 12
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 9
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 9
+    },
+    "degree" : {
+      "answer" : "PhD",
+      "timespent" : 112
+    },
+    "gender" : {
+      "answer" : "Male",
+      "timespent" : 112
+    },
+    "suggestions" : {
+      "answer" : "A time radar chart is much easier to follow since it has less object and intersection\nA time bundling chart is really hard to read in 60 seconds to find the answer",
+      "timespent" : 112
+    }
+  },
+  "1d4fd236-b905-4b0a-bd94-be0b556db89c" : {
+    "10_10_a_b" : {
+      "answer" : "8",
+      "timespent" : 44
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 14
+    },
+    "10_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 21
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 19
+    },
+    "10_30_a_b" : {
+      "answer" : "3",
+      "timespent" : 35
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 17
+    },
+    "10_30_b_b" : {
+      "answer" : "3",
+      "timespent" : 48
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 19
+    },
+    "10_50_a_b" : {
+      "answer" : "6",
+      "timespent" : 29
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 22
+    },
+    "10_50_b_b" : {
+      "answer" : "44",
+      "timespent" : 21
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 21
+    },
+    "30_10_a_b" : {
+      "answer" : "24",
+      "timespent" : 52
+    },
+    "30_10_a_l" : {
+      "answer" : "1",
+      "timespent" : 21
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 15
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 15
+    },
+    "30_30_a_b" : {
+      "answer" : "21",
+      "timespent" : 53
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 33
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 19
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 30
+    },
+    "30_50_a_b" : {
+      "answer" : "23",
+      "timespent" : 49
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 30
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 55
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 31
+    },
+    "50_10_a_b" : {
+      "answer" : "8",
+      "timespent" : 26
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 25
+    },
+    "50_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 12
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 23
+    },
+    "50_30_a_b" : {
+      "answer" : "19",
+      "timespent" : 29
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 46
+    },
+    "50_30_b_b" : {
+      "answer" : "13",
+      "timespent" : 31
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 21
+    },
+    "50_50_a_b" : {
+      "answer" : "20",
+      "timespent" : 36
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 30
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 30
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 18
+    },
+    "degree" : "master",
+    "gender" : "male",
+    "suggestions" : {
+      "answer" : "I prefer the one without the transitioning lines because you can count shapes and it is much easier to see the changes. ",
+      "timespent" : 51
+    }
+  },
+  "41486dcf-b5bb-4807-b510-57efb0f92b7f" : {
+    "10_10_a_b" : {
+      "answer" : "5",
+      "timespent" : 10
+    },
+    "10_10_a_l" : {
+      "answer" : "9",
+      "timespent" : 6
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 7
+    },
+    "10_10_b_l" : {
+      "answer" : "5",
+      "timespent" : 6
+    },
+    "10_30_a_b" : {
+      "answer" : "5",
+      "timespent" : 17
+    },
+    "10_30_a_l" : {
+      "answer" : "4",
+      "timespent" : 8
+    },
+    "10_30_b_b" : {
+      "answer" : "22",
+      "timespent" : 16
+    },
+    "10_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 12
+    },
+    "10_50_a_b" : {
+      "answer" : "4",
+      "timespent" : 9
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 8
+    },
+    "10_50_b_b" : {
+      "answer" : "14",
+      "timespent" : 14
+    },
+    "10_50_b_l" : {
+      "answer" : "5",
+      "timespent" : 8
+    },
+    "30_10_a_b" : {
+      "answer" : "5",
+      "timespent" : 11
+    },
+    "30_10_a_l" : {
+      "answer" : "23",
+      "timespent" : 23
+    },
+    "30_10_b_b" : {
+      "answer" : "2",
+      "timespent" : 11
+    },
+    "30_10_b_l" : {
+      "answer" : "3",
+      "timespent" : 11
+    },
+    "30_30_a_b" : {
+      "answer" : "24",
+      "timespent" : 12
+    },
+    "30_30_a_l" : {
+      "answer" : "21",
+      "timespent" : 14
+    },
+    "30_30_b_b" : {
+      "answer" : "7",
+      "timespent" : 16
+    },
+    "30_30_b_l" : {
+      "answer" : "17",
+      "timespent" : 17
+    },
+    "30_50_a_b" : {
+      "answer" : "19",
+      "timespent" : 12
+    },
+    "30_50_a_l" : {
+      "answer" : "27",
+      "timespent" : 7
+    },
+    "30_50_b_b" : {
+      "answer" : "40",
+      "timespent" : 17
+    },
+    "30_50_b_l" : {
+      "answer" : "16",
+      "timespent" : 29
+    },
+    "50_10_a_b" : {
+      "answer" : "9",
+      "timespent" : 9
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 13
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 7
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 7
+    },
+    "50_30_a_b" : {
+      "answer" : "24",
+      "timespent" : 24
+    },
+    "50_30_a_l" : {
+      "answer" : "13",
+      "timespent" : 17
+    },
+    "50_30_b_b" : {
+      "answer" : "19",
+      "timespent" : 14
+    },
+    "50_30_b_l" : {
+      "answer" : "6",
+      "timespent" : 19
+    },
+    "50_50_a_b" : {
+      "answer" : "25",
+      "timespent" : 21
+    },
+    "50_50_a_l" : {
+      "answer" : "9",
+      "timespent" : 8
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 9
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 16
+    }
+  },
+  "c3b3e378-44ca-4ac4-adaa-94c93b432d35" : {
+    "10_10_a_b" : {
+      "answer" : "2",
+      "timespent" : 22
+    },
+    "10_10_a_l" : {
+      "answer" : "5",
+      "timespent" : 12
+    },
+    "10_10_b_b" : {
+      "answer" : "7",
+      "timespent" : 7
+    },
+    "10_10_b_l" : {
+      "answer" : "7",
+      "timespent" : 6
+    },
+    "10_30_a_b" : {
+      "answer" : "8",
+      "timespent" : 23
+    },
+    "10_30_a_l" : {
+      "answer" : "8",
+      "timespent" : 32
+    },
+    "10_30_b_b" : {
+      "answer" : "9",
+      "timespent" : 17
+    },
+    "10_30_b_l" : {
+      "answer" : "30",
+      "timespent" : 9
+    },
+    "10_50_a_b" : {
+      "answer" : "2",
+      "timespent" : 26
+    },
+    "10_50_a_l" : {
+      "answer" : "6",
+      "timespent" : 55
+    },
+    "10_50_b_b" : {
+      "answer" : "21",
+      "timespent" : 10
+    },
+    "10_50_b_l" : {
+      "answer" : "40",
+      "timespent" : 9
+    },
+    "30_10_a_b" : {
+      "answer" : "5",
+      "timespent" : 14
+    },
+    "30_10_a_l" : {
+      "answer" : "5",
+      "timespent" : 10
+    },
+    "30_10_b_b" : {
+      "answer" : "5",
+      "timespent" : 6
+    },
+    "30_10_b_l" : {
+      "answer" : "2",
+      "timespent" : 8
+    },
+    "30_30_a_b" : {
+      "answer" : "17",
+      "timespent" : 60
+    },
+    "30_30_a_l" : {
+      "answer" : "3",
+      "timespent" : 18
+    },
+    "30_30_b_b" : {
+      "answer" : "22",
+      "timespent" : 14
+    },
+    "30_30_b_l" : {
+      "answer" : "7",
+      "timespent" : 9
+    },
+    "30_50_a_b" : {
+      "answer" : "25",
+      "timespent" : 14
+    },
+    "30_50_a_l" : {
+      "answer" : "4",
+      "timespent" : 27
+    },
+    "30_50_b_b" : {
+      "answer" : "27",
+      "timespent" : 17
+    },
+    "30_50_b_l" : {
+      "answer" : "27",
+      "timespent" : 11
+    },
+    "50_10_a_b" : {
+      "answer" : "8",
+      "timespent" : 10
+    },
+    "50_10_a_l" : {
+      "answer" : "28",
+      "timespent" : 23
+    },
+    "50_10_b_b" : {
+      "answer" : "8",
+      "timespent" : 15
+    },
+    "50_10_b_l" : {
+      "answer" : "8",
+      "timespent" : 7
+    },
+    "50_30_a_b" : {
+      "answer" : "22",
+      "timespent" : 11
+    },
+    "50_30_a_l" : {
+      "answer" : "46",
+      "timespent" : 18
+    },
+    "50_30_b_b" : {
+      "answer" : "3",
+      "timespent" : 12
+    },
+    "50_30_b_l" : {
+      "answer" : "5",
+      "timespent" : 8
+    },
+    "50_50_a_b" : {
+      "answer" : "26",
+      "timespent" : 46
+    },
+    "50_50_a_l" : {
+      "answer" : "37",
+      "timespent" : 60
+    },
+    "50_50_b_b" : {
+      "answer" : "24",
+      "timespent" : 18
+    },
+    "50_50_b_l" : {
+      "answer" : "24",
+      "timespent" : 16
+    }
+  }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Human Computer Interaction - User Study</title>
+</head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://surveyjs.azureedge.net/1.1.22/survey.css" type="text/css" rel="stylesheet"/>
+<script src="js/survey.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyA8337M20dB1IP0-jlhb9eLH5PXGXY2uZ8",
+        authDomain: "timeradar-398ae.firebaseapp.com",
+        databaseURL: "https://timeradar-398ae.firebaseio.com",
+        projectId: "timeradar-398ae",
+        storageBucket: "timeradar-398ae.appspot.com",
+        messagingSenderId: "193189548734",
+        appId: "1:193189548734:web:8d2160d91f67ac65fec4ef",
+        measurementId: "G-HS07EN7Q5G"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+<style>
+    .sv_main .sv_container{
+        font-size: 18px;
+        color: black;
+    }
+</style>
+<body>
+<h4>Task 1 - Find the instance</h4>
+<table id="tblTask1" border="1" width="100%">
+    <tr>
+        <th colspan="2">10 x 10</th>
+        <th colspan="2">10 x 30</th>
+        <th colspan="2">10 x 50</th>
+        <th colspan="2">30 x 10</th>
+        <th colspan="2">30 x 30</th>
+        <th colspan="2">30 x 50</th>
+        <th colspan="2">50 x 10</th>
+        <th colspan="2">50 x 30</th>
+        <th colspan="2">50 x 50</th>
+    </tr>
+    <tr>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+
+    </tr>
+
+</table>
+<h4>Task 2 - Find the timepoint</h4>
+<table id="tblTask2" border="1" width="100%">
+    <tr>
+        <th colspan="2">10 x 10</th>
+        <th colspan="2">10 x 30</th>
+        <th colspan="2">10 x 50</th>
+        <th colspan="2">30 x 10</th>
+        <th colspan="2">30 x 30</th>
+        <th colspan="2">30 x 50</th>
+        <th colspan="2">50 x 10</th>
+        <th colspan="2">50 x 30</th>
+        <th colspan="2">50 x 50</th>
+    </tr>
+    <tr>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+        <td>radar</td>
+        <td>bundle</td>
+
+    </tr>
+</table>
+
+</body>
+
+<script>
+    const ANSWERS ={
+        "10_10_a_l":9,
+        "10_10_a_b":9,
+        "10_10_b_l":7,
+        "10_10_b_b":7,
+        
+        "10_30_a_l":4,
+        "10_30_a_b":4,
+        "10_30_b_l":30,
+        "10_30_b_b":30,
+
+        "10_50_a_l":6,
+        "10_50_a_b":6,
+        "10_50_b_l":40,
+        "10_50_b_b":40,
+
+        "30_10_a_l":1,
+        "30_10_a_b":1,
+        "30_10_b_l":2,
+        "30_10_b_b":2,
+
+        "30_30_a_l":21,
+        "30_30_a_b":21,
+        "30_30_b_l":7,
+        "30_30_b_b":7,
+
+        "30_50_a_l":27,
+        "30_50_a_b":27,
+        "30_50_b_l":16,
+        "30_50_b_b":16,
+
+        "50_10_a_l":28,
+        "50_10_a_b":28,
+        "50_10_b_l":8,
+        "50_10_b_b":8,
+
+        "50_30_a_l":46,
+        "50_30_a_b":46,
+        "50_30_b_l":5,
+        "50_30_b_b":5,
+        
+        
+        "50_50_a_l":9,
+        "50_50_a_b":9,
+        "50_50_b_l":24,
+        "50_50_b_b":24,
+        
+
+    }
+    d3.json("data/timeradar-398ae-export.json").then(result=>{
+        let timePoint = ['10','30','50']
+        let instances = ['10','30','50']
+        let tasks = ['a','b']
+        let ctypes =['l','b']
+
+        Object.keys(result).forEach((user,index)=>{
+            //Access to each user
+           let _userObj = result[user];
+           //loop through the answer
+            let tbl1 = document.getElementById('tblTask1');
+            let tbl2 = document.getElementById('tblTask2');
+            let row1 = document.createElement('tr');
+            let row2 = document.createElement('tr')
+            tbl1.appendChild(row1)
+            tbl2.appendChild(row2)
+            instances.forEach(instance=>{
+                timePoint.forEach(time=>{
+                        ctypes.forEach(t=>{
+                            let column1 = document.createElement('td')
+                            column1.id=`row${index}-${instance}_${time}_a_${t}`
+                            row1.appendChild(column1)
+
+                            let column2 = document.createElement('td')
+                            column2.id=`row${index}-${instance}_${time}_b_${t}`
+                            row2.appendChild(column2)
+                        })
+
+                })
+            })
+            Object.keys(_userObj).forEach(question=>{
+                if(ANSWERS.hasOwnProperty(question)){
+                    if(ANSWERS[question]===+_userObj[question].answer){
+                        _userObj[question].isCorrect = 1; //true
+                    }else{
+                        _userObj[question].isCorrect = 0; //false
+                    }
+
+                    let val = document.getElementById(`row${index}-${question}`);
+                    let color = _userObj[question].isCorrect ===1?"blue":'gray'
+                    if(val){
+                        val.innerHTML =`<span style="color: ${color}"> ${ANSWERS[question]} - ${+_userObj[question].answer}</span>`
+                    }
+
+
+                }
+            })
+        })
+        console.log(result)
+
+
+    })
+
+
+</script>
+</html>
