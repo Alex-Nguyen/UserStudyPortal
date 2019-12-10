@@ -375,9 +375,12 @@ let TimeRadar = function() {
         ;
 
         computers = nodeg.selectAll('.computeNode');
-        computers.select('.label').classed('hide',runopt.compute.type==='timeline');
-
-        computers.classed('statics', true);
+        computers.on('mouseover',function(d){
+            computers.style('opacity',0.2);
+            d3.select(this).style('opacity',1);
+        }).on('mouseleave',function(){
+            computers.style('opacity',1);
+        })
         renderManual(computers);
         master.drawComp();
         return master;
