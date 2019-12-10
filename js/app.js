@@ -33,12 +33,12 @@ class UserStudy {
         _this.survey.onCurrentPageChanging.add(function (sender, options) {
             // console.log(`Page changing: `+ survey.currentPage.timeSpent)
             let val = _this.survey.currentPage.getValue();
-            console.log(val)
             Object.keys(val).forEach(key=>{
                 let qname =key;
                 let qanwer = val[qname];
 
                 database.ref(`${time}/${qname}`).set({answer: qanwer, timespent:_this.survey.currentPage.timeSpent, correct: _this.survey.currentPage.questions[0].correctAnswer});
+                // console.log({answer: qanwer, timespent:_this.survey.currentPage.timeSpent, correct: _this.survey.currentPage.questions[0].correctAnswer})
             })
         });
         _this.survey.onTimerPanelInfoText.add((sender, options) => {
@@ -115,7 +115,7 @@ class UserStudy {
                         name: `${instance}_${timestep}_${task ? 'b' : 'a'}_${type ? 'b' : 'l'}`,
                         title: task ? "Find the most dynamic time point (the timestamps, when many instances change their status)" : "Find the most dynamic instance (the instance that exhibits multiple statuses over time).",
                         choices: d3.range(0, task?timestep:instance).map(d => `${d + 1}`),
-                        correctAnswer: ""+data.correct,
+                        correctAnswer: ""+(data.correct+1),
                     },
                     {
                         type: "html",
